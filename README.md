@@ -40,9 +40,54 @@ var findMedianSortedArrays = function(nums1, nums2) {
 };
 ```
 #
+# Problem 2 (Medium)
+* Longest Common Prefix
+
+## Problem Statement [Question](https://leetcode.com/problems/longest-common-prefix/)
+
+Write a function to find the longest common prefix string amongst an array of strings.
+
+If there is no common prefix, return an empty string "".
 
 
-# Problem 2 (Easy)
+```bash
+Example 1:
+
+Input: strs = ["flower","flow","flight"]
+Output: "fl"
+
+```
+
+```bash
+Example 2:
+
+Input: strs = ["dog","racecar","car"]
+Output: ""
+Explanation: There is no common prefix among the input strings.
+```
+## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
+```bash
+var longestCommonPrefix = function(strs) {
+    if(strs.length == 1 && strs[0] === ""){return "";}
+    let newstring = strs[0], returnstring = "";
+    for(let i=0; i<strs[0].length; i++){
+        for(let j=0; j<strs.length; j++){
+            if(!(strs[0][i] === strs[j][i])){
+                return returnstring;
+            }
+            else{
+                if(j === strs.length-1){
+                    returnstring += strs[0][i];
+                }
+            }
+        }
+    } 
+    return returnstring;
+};
+```
+#
+
+# Problem 3 (Easy)
 * Two Sum
 
 ## Problem Statement [Question](https://leetcode.com/problems/two-sum/)
@@ -75,7 +120,7 @@ Example 3:
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Easy)%20Two%20Sum.js/)
+## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
 ```bash
 var twoSum = function(nums, target) {
     for(let i=0; i<nums.length-1; i++){
