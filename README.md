@@ -120,7 +120,7 @@ Example 3:
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
+## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Longest%20Common%20Prefix.js/)
 ```bash
 var twoSum = function(nums, target) {
     for(let i=0; i<nums.length-1; i++){
