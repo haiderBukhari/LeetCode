@@ -29,7 +29,7 @@ Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 
 # ✍️ Problem 2 (Medium)
 
-    * Remove Duplicates from Sorted Array II
+   * Remove Duplicates from Sorted Array II
 
 ## 👉[Problem Statement](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Remove%20Duplicates%20from%20Sorted%20Array%20II.js/)
 
@@ -57,7 +57,7 @@ Output: 7, nums = [0,0,1,1,2,3,3,_,_]
 #
 # ✍️ Problem 3 (Easy)
 
-    * Longest Common Prefix
+   * Longest Common Prefix
 
 ## 👉[Problem Statement](https://leetcode.com/problems/longest-common-prefix/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
 
@@ -84,7 +84,7 @@ Explanation: There is no common prefix among the input strings.
 #
 # ✍️ Problem 4 (Medium)
 
-    * Best Time to Buy and Sell Stock II
+   * Best Time to Buy and Sell Stock II
 
 ## 👉[Problem Statement](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.js/)
 
@@ -111,7 +111,7 @@ Output: 4
 #
 # ✍️ Problem 5 (Easy)
 
-    * Two Sum
+   * Two Sum
 
 ## 👉[Problem Statement](https://leetcode.com/problems/two-sum/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Easy)%20Longest%20Common%20Prefix.js/)
 
@@ -146,7 +146,7 @@ Output: [1,2]
 #
 # ✍️ Problem 6 (Medium)
 
-    * Search a 2D Matrix
+   * Search a 2D Matrix
 
 ## 👉[Problem Statement](https://leetcode.com/problems/search-a-2d-matrix/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Search%20a%202D%20Matrix.js/)
 
