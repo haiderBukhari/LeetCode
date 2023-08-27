@@ -1,8 +1,9 @@
-# Problem 1 (Hard)
+# ✍️ Problem 1 (Hard)
 
    * Median of Two Sorted Arrays
 
-## Problem Statement [Question](https://leetcode.com/problems/median-of-two-sorted-arrays/)
+## 👉[Problem Statement](https://leetcode.com/problems/median-of-two-sorted-arrays/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
+
 
 Given two sorted arrays nums1 and nums2 of size m and n respectively, return the median of the two sorted arrays.
 
@@ -24,27 +25,13 @@ Input: nums1 = [1,2], nums2 = [3,4]
 Output: 2.50000
 Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 ```
-## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
-```bash
-var findMedianSortedArrays = function(nums1, nums2) {
-    let finalarray = [...nums1, ...nums2].sort(function(a,b){
-        return a - b;
-    });
-    let length = finalarray.length;
-    if(length%2 === 0){
-        return ((finalarray[length/2]+finalarray[(length/2)-1])/2)
-    }
-    else{
-        return finalarray[Math.floor(length/2)]
-    }
-};
-```
 #
 
-# Problem 2 (Medium)
-* Remove Duplicates from Sorted Array II
+# ✍️ Problem 2 (Medium)
 
-## Problem Statement [Question](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+    * Remove Duplicates from Sorted Array II
+
+## 👉[Problem Statement](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Remove%20Duplicates%20from%20Sorted%20Array%20II.js/)
 
 Given an integer array nums sorted in non-decreasing order, remove some duplicates in-place such that each unique element appears at most twice. The relative order of the elements should be kept the same.
 
@@ -53,8 +40,6 @@ Since it is impossible to change the length of the array in some languages, you 
 Return k after placing the final result in the first k slots of nums.
 
 Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
-
-
 
 ```bash
 Example 1:
@@ -69,32 +54,12 @@ Example 2:
 Input: nums = [0,0,1,1,1,1,2,3,3]
 Output: 7, nums = [0,0,1,1,2,3,3,_,_]
 ```
-## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Remove%20Duplicates%20from%20Sorted%20Array%20II.js/)
-```bash
-var removeDuplicates = function(nums) {
-    const obj = {};
-    for (let i = 0; i < nums.length; i++) {
-        if (obj[nums[i]]) {
-            if (obj[nums[i]] >= 2) {
-                nums.splice(i, 1);
-                i-=1;
-            }
-            else {
-                obj[nums[i]] += 1;
-            }
-        }
-        else {
-            obj[nums[i]] = 1;
-        }
-    }
-    return nums.length; 
-};
-```
 #
-# Problem 3 (Easy)
-* Longest Common Prefix
+# ✍️ Problem 3 (Easy)
 
-## Problem Statement [Question](https://leetcode.com/problems/longest-common-prefix/)
+    * Longest Common Prefix
+
+## 👉[Problem Statement](https://leetcode.com/problems/longest-common-prefix/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
 
 Write a function to find the longest common prefix string amongst an array of strings.
 
@@ -116,31 +81,12 @@ Input: strs = ["dog","racecar","car"]
 Output: ""
 Explanation: There is no common prefix among the input strings.
 ```
-## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
-```bash
-var longestCommonPrefix = function(strs) {
-    if(strs.length == 1 && strs[0] === ""){return "";}
-    let newstring = strs[0], returnstring = "";
-    for(let i=0; i<strs[0].length; i++){
-        for(let j=0; j<strs.length; j++){
-            if(!(strs[0][i] === strs[j][i])){
-                return returnstring;
-            }
-            else{
-                if(j === strs.length-1){
-                    returnstring += strs[0][i];
-                }
-            }
-        }
-    } 
-    return returnstring;
-};
-```
 #
-# Problem 4 (Medium)
-* Best Time to Buy and Sell Stock II
+# ✍️ Problem 4 (Medium)
 
-## Problem Statement [Question](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
+    * Best Time to Buy and Sell Stock II
+
+## 👉[Problem Statement](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.js/)
 
 You are given an integer array prices where prices[i] is the price of a given stock on the ith day.
 
@@ -162,25 +108,12 @@ Example 2:
 Input: prices = [1,2,3,4,5]
 Output: 4
 ```
-## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.js/)
-```bash
-var maxProfit = function(prices) {
-    let sum = 0;
-    for(let i=1; i<prices.length; i++){
-        const subtraction = prices[i] - prices[i-1];
-        if(subtraction>0){
-            sum += subtraction;
-        }
-    }
-    return sum;
-};
-```
-
 #
-# Problem 5 (Easy)
-* Two Sum
+# ✍️ Problem 5 (Easy)
 
-## Problem Statement [Question](https://leetcode.com/problems/two-sum/)
+    * Two Sum
+
+## 👉[Problem Statement](https://leetcode.com/problems/two-sum/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Easy)%20Longest%20Common%20Prefix.js/)
 
 Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
 
@@ -210,23 +143,12 @@ Example 3:
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
 ```
-## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Easy)%20Longest%20Common%20Prefix.js/)
-```bash
-var twoSum = function(nums, target) {
-    for(let i=0; i<nums.length-1; i++){
-        for(let j=i+1; j<nums.length; j++){
-            if(nums[i]+nums[j] == target){
-                return [i, j];
-            }
-        }
-    }
-};
-```
 #
-# Problem 6 (Medium)
-* Search a 2D Matrix
+# ✍️ Problem 6 (Medium)
 
-## Problem Statement [Question](https://leetcode.com/problems/search-a-2d-matrix/)
+    * Search a 2D Matrix
+
+## 👉[Problem Statement](https://leetcode.com/problems/search-a-2d-matrix/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Search%20a%202D%20Matrix.js/)
 
 You are given an m x n integer matrix matrix with the following two properties:
    1. Each row is sorted in non-decreasing order.
@@ -247,26 +169,4 @@ Example 2:
 
 Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
 Output: false
-```
-## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Search%20a%202D%20Matrix.js/)
-```bash
-let binarySearch = (matrix, start, end, key) => {
-    const mid = Math.floor((start + end) / 2);
-    if(start>end){
-        return false;
-    }
-    else if(matrix[mid] === key){
-        return true;
-    }
-    else if(matrix[mid] > key){
-        return binarySearch(matrix, start, mid-1, key)
-    }
-    else{
-        return binarySearch(matrix, mid+1, end, key);
-    }
-}
-var searchMatrix = function(matrix, target) {
-    matrix = [...new Set(matrix.flat())];
-    return binarySearch(matrix, 0, matrix.length-1, target);
-};
 ```
