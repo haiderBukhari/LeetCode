@@ -69,7 +69,7 @@ Example 2:
 Input: nums = [0,0,1,1,1,1,2,3,3]
 Output: 7, nums = [0,0,1,1,2,3,3,_,_]
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
+## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Remove%20Duplicates%20from%20Sorted%20Array%20II.js/)
 ```bash
 var removeDuplicates = function(nums) {
     const obj = {};
@@ -140,7 +140,7 @@ var longestCommonPrefix = function(strs) {
 # Problem 4 (Medium)
 * Best Time to Buy and Sell Stock II
 
-## Problem Statement [Question](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+## Problem Statement [Question](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 You are given an integer array prices where prices[i] is the price of a given stock on the ith day.
 
@@ -162,7 +162,7 @@ Example 2:
 Input: prices = [1,2,3,4,5]
 Output: 4
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
+## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.js/)
 ```bash
 var maxProfit = function(prices) {
     let sum = 0;
@@ -210,7 +210,7 @@ Example 3:
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Longest%20Common%20Prefix.js/)
+## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Easy)%20Longest%20Common%20Prefix.js/)
 ```bash
 var twoSum = function(nums, target) {
     for(let i=0; i<nums.length-1; i++){
