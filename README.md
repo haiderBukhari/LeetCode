@@ -40,7 +40,58 @@ var findMedianSortedArrays = function(nums1, nums2) {
 };
 ```
 #
+
 # Problem 2 (Medium)
+* Remove Duplicates from Sorted Array II
+
+## Problem Statement [Question](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+
+Given an integer array nums sorted in non-decreasing order, remove some duplicates in-place such that each unique element appears at most twice. The relative order of the elements should be kept the same.
+
+Since it is impossible to change the length of the array in some languages, you must instead have the result be placed in the first part of the array nums. More formally, if there are k elements after removing the duplicates, then the first k elements of nums should hold the final result. It does not matter what you leave beyond the first k elements.
+
+Return k after placing the final result in the first k slots of nums.
+
+Do not allocate extra space for another array. You must do this by modifying the input array in-place with O(1) extra memory.
+
+
+
+```bash
+Example 1:
+
+Input: nums = [1,1,1,2,2,3]
+Output: 5, nums = [1,1,2,2,3,_]
+```
+
+```bash
+Example 2:
+
+Input: nums = [0,0,1,1,1,1,2,3,3]
+Output: 7, nums = [0,0,1,1,2,3,3,_,_]
+```
+## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
+```bash
+var removeDuplicates = function(nums) {
+    const obj = {};
+    for (let i = 0; i < nums.length; i++) {
+        if (obj[nums[i]]) {
+            if (obj[nums[i]] >= 2) {
+                nums.splice(i, 1);
+                i-=1;
+            }
+            else {
+                obj[nums[i]] += 1;
+            }
+        }
+        else {
+            obj[nums[i]] = 1;
+        }
+    }
+    return nums.length; 
+};
+```
+#
+# Problem 3 (Easy)
 * Longest Common Prefix
 
 ## Problem Statement [Question](https://leetcode.com/problems/longest-common-prefix/)
@@ -86,8 +137,47 @@ var longestCommonPrefix = function(strs) {
 };
 ```
 #
+# Problem 4 (Medium)
+* Best Time to Buy and Sell Stock II
 
-# Problem 3 (Easy)
+## Problem Statement [Question](https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/)
+
+You are given an integer array prices where prices[i] is the price of a given stock on the ith day.
+
+On each day, you may decide to buy and/or sell the stock. You can only hold at most one share of the stock at any time. However, you can buy it then immediately sell it on the same day.
+
+Find and return the maximum profit you can achieve.
+
+
+```bash
+Example 1:
+
+Input: prices = [7,1,5,3,6,4]
+Output: 7
+```
+
+```bash
+Example 2:
+
+Input: prices = [1,2,3,4,5]
+Output: 4
+```
+## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
+```bash
+var maxProfit = function(prices) {
+    let sum = 0;
+    for(let i=1; i<prices.length; i++){
+        const subtraction = prices[i] - prices[i-1];
+        if(subtraction>0){
+            sum += subtraction;
+        }
+    }
+    return sum;
+};
+```
+
+#
+# Problem 5 (Easy)
 * Two Sum
 
 ## Problem Statement [Question](https://leetcode.com/problems/two-sum/)
@@ -132,4 +222,3 @@ var twoSum = function(nums, target) {
     }
 };
 ```
-#
