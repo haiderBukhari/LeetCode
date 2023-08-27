@@ -24,7 +24,7 @@ Input: nums1 = [1,2], nums2 = [3,4]
 Output: 2.50000
 Explanation: merged array = [1,2,3,4] and median is (2 + 3) / 2 = 2.5.
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
+## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
 ```bash
 var findMedianSortedArrays = function(nums1, nums2) {
     let finalarray = [...nums1, ...nums2].sort(function(a,b){
@@ -69,7 +69,7 @@ Example 2:
 Input: nums = [0,0,1,1,1,1,2,3,3]
 Output: 7, nums = [0,0,1,1,2,3,3,_,_]
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Remove%20Duplicates%20from%20Sorted%20Array%20II.js/)
+## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Remove%20Duplicates%20from%20Sorted%20Array%20II.js/)
 ```bash
 var removeDuplicates = function(nums) {
     const obj = {};
@@ -116,7 +116,7 @@ Input: strs = ["dog","racecar","car"]
 Output: ""
 Explanation: There is no common prefix among the input strings.
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
+## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Hard)%20Median%20of%20Two%20Sorted%20Arrays.js/)
 ```bash
 var longestCommonPrefix = function(strs) {
     if(strs.length == 1 && strs[0] === ""){return "";}
@@ -162,7 +162,7 @@ Example 2:
 Input: prices = [1,2,3,4,5]
 Output: 4
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.js/)
+## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Best%20Time%20to%20Buy%20and%20Sell%20Stock%20II.js/)
 ```bash
 var maxProfit = function(prices) {
     let sum = 0;
@@ -210,7 +210,7 @@ Example 3:
 Input: nums = [3,2,4], target = 6
 Output: [1,2]
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Easy)%20Longest%20Common%20Prefix.js/)
+## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Easy)%20Longest%20Common%20Prefix.js/)
 ```bash
 var twoSum = function(nums, target) {
     for(let i=0; i<nums.length-1; i++){
@@ -248,7 +248,7 @@ Example 2:
 Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
 Output: false
 ```
-## [Sollution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Search%20a%202D%20Matrix.js/)
+## [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Search%20a%202D%20Matrix.js/)
 ```bash
 let binarySearch = (matrix, start, end, key) => {
     const mid = Math.floor((start + end) / 2);

@@ -13,7 +13,6 @@ Given two sorted arrays nums1 and nums2 of size m and n respectively, return the
 
 The overall run time complexity should be O(log (m+n)).
 */
-//Sollution
 var findMedianSortedArrays = function(nums1, nums2) {
     let finalarray = [...nums1, ...nums2].sort(function(a,b){
         return a - b;
