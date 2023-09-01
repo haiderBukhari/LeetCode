@@ -1,3 +1,37 @@
+<div align="center">
+
+# Welcome to My LeetCode Page 🚀
+</div>
+
+## Introduction
+
+Hello! I'm Muhammad Haider Bukhari, a passionate Full Stack Developer with a relentless commitment to transforming visionary ideas into tangible realities. My insatiable thirst for knowledge drives me to continuously learn and improve.
+
+## About Me
+
+- **Name:** Muhammad Haider Bukhari
+- **Profession:** Full Stack Developer
+- **Portfolio:** [www.haiderbukhari.tech](www.haiderbukhari.tech)
+
+## LeetCode Profile
+
+🔗 **[Visit my LeetCode Profile](https://leetcode.com/MHaiderBukhari/)**
+
+## Get in Touch
+
+📫 Feel free to connect with me through [LinkedIn](https://www.linkedin.com/in/muhammad-haider-bukhari/) for professional networking or any exciting collaborations.
+
+Let's embark on a journey of coding challenges, problem-solving, and continuous learning together! 🌟
+
+
+## Coding Journey 🚴‍♂️
+
+Here are the questions I've tackled, in the sequence I attended them. Feel free to follow along:
+
+#
+
+
+
 # ✍️ Problem 1 (Hard)
 
    * Median of Two Sorted Arrays
@@ -169,4 +203,41 @@ Example 2:
 
 Input: matrix = [[1,3,5,7],[10,11,16,20],[23,30,34,60]], target = 13
 Output: false
+```
+#
+# ✍️ Problem 7 (Medium)
+
+   * Rotate Array
+
+## 👉[Problem Statement](https://leetcode.com/problems/rotate-array/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Search%20a%202D%20Matrix.js/)
+
+Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
+
+```bash
+Example 1:
+
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+
+- Explanation:
+
+  1. rotate 1 steps to the right: [7,1,2,3,4,5,6]
+  2. rotate 2 steps to the right: [6,7,1,2,3,4,5]
+  3. rotate 3 steps to the right: [5,6,7,1,2,3,4]
+
+
+```
+
+```bash
+Example 2:
+
+Input: nums = [-1,-100,3,99], k = 2
+Output: [3,99,-1,-100]
+
+- Explanation:
+
+  1. rotate 1 steps to the right: [99,-1,-100,3]
+  2. rotate 2 steps to the right: [3,99,-1,-100]
+
+
 ```
