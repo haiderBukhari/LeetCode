@@ -274,7 +274,7 @@ Output: 3
 
    * Set Matrix Zeroes
 
-## 👉[Problem Statement](https://leetcode.com/problems/set-matrix-zeroes/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Rotate%20Array.js)
+## 👉[Problem Statement](https://leetcode.com/problems/set-matrix-zeroes/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Set%20Matrix%20Zeroes.js)
 
 Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
 
