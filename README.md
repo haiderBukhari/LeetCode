@@ -269,3 +269,30 @@ Input: nums = [3,1,3,4,2]
 Output: 3
 
 ```
+#
+# ✍️ Problem 9 (Medium)
+
+   * Set Matrix Zeroes
+
+## 👉[Problem Statement](https://leetcode.com/problems/set-matrix-zeroes/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Rotate%20Array.js)
+
+Given an m x n integer matrix matrix, if an element is 0, set its entire row and column to 0's.
+
+You must do it in place.
+
+```bash
+Example 1:
+
+Input: matrix = [[1,1,1],[1,0,1],[1,1,1]]
+Output: [[1,0,1],[0,0,0],[1,0,1]]
+
+
+```
+
+```bash
+Example 2:
+
+Input: matrix = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+Output: [[0,0,0,0],[0,4,5,0],[0,3,1,0]]
+
+```
