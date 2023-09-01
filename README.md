@@ -209,7 +209,7 @@ Output: false
 
    * Rotate Array
 
-## 👉[Problem Statement](https://leetcode.com/problems/rotate-array/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Search%20a%202D%20Matrix.js/)
+## 👉[Problem Statement](https://leetcode.com/problems/rotate-array/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Rotate%20Array.js)
 
 Given an integer array nums, rotate the array to the right by k steps, where k is non-negative.
 
@@ -239,5 +239,33 @@ Output: [3,99,-1,-100]
   1. rotate 1 steps to the right: [99,-1,-100,3]
   2. rotate 2 steps to the right: [3,99,-1,-100]
 
+
+```
+#
+# ✍️ Problem 8 (Medium)
+
+   * Find the Duplicate Number
+
+## 👉[Problem Statement](https://leetcode.com/problems/rotate-array/) 👉 [Solution](https://github.com/haiderBukhari/LeetCode/blob/main/(Medium)%20Rotate%20Array.js)
+
+Given an array of integers nums containing n + 1 integers where each integer is in the range [1, n] inclusive.
+
+There is only one repeated number in nums, return this repeated number.
+
+You must solve the problem without modifying the array nums and uses only constant extra space.
+
+```bash
+Example 1:
+
+Input: nums = [1,3,4,2,2]
+Output: 2
+
+```
+
+```bash
+Example 2:
+
+Input: nums = [3,1,3,4,2]
+Output: 3
 
 ```
