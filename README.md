@@ -11,7 +11,7 @@ Hello! I'm Muhammad Haider Bukhari, a passionate Full Stack Developer with a rel
 
 - **Name:** Muhammad Haider Bukhari
 - **Profession:** Full Stack Developer
-- **Portfolio:** [www.haiderbukhari.tech](www.haiderbukhari.tech)
+- **Portfolio:** [www.haiderbukhari.tech](https://haiderbukhari.tech/)
 
 ## LeetCode Profile
 
