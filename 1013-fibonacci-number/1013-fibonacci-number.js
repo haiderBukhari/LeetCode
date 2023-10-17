@@ -2,7 +2,7 @@
  * @param {number} n
  * @return {number}
  */
-let arr = [0, 1]
+let arr = []
 var fib = function(n) {
     if(n == 0 || n== 1){
         return n;
